@@ -1198,7 +1198,7 @@
                      return;
                  default:
                      throw new IllegalArgumentException("Invalid player action");
-@@ -1242,9 +_,31 @@
+@@ -1242,9 +_,33 @@
          }
      }
  
@@ -1226,7 +1226,9 @@
      public void handleUseItemOn(ServerboundUseItemOnPacket packet) {
          PacketUtils.ensureRunningOnSameThread(packet, this, this.player.level());
 +        if (this.player.isImmobile()) return; // CraftBukkit
-+        if (!this.checkLimit(packet.timestamp)) return; // Spigot - check limit
++        // Paper start - allowing bedrock breaking cuz i'm 20% cooler
++        // if (!this.checkLimit(packet.timestamp)) return; // Spigot - check limit
++        // Paper end - allowing bedrock breaking cuz i'm 20% cooler
          if (this.player.hasClientLoaded()) {
              this.ackBlockChangesUpTo(packet.getSequence());
              ServerLevel serverLevel = this.player.level();
@@ -1281,12 +1283,14 @@
                      }
                  }
              }
-@@ -1302,6 +_,8 @@
+@@ -1302,6 +_,10 @@
      @Override
      public void handleUseItem(ServerboundUseItemPacket packet) {
          PacketUtils.ensureRunningOnSameThread(packet, this, this.player.level());
 +        if (this.player.isImmobile()) return; // CraftBukkit
-+        if (!this.checkLimit(packet.timestamp)) return; // Spigot - check limit
++        // Paper start - allowing bedrock breaking cuz i'm 20% cooler
++        // if (!this.checkLimit(packet.timestamp)) return; // Spigot - check limit
++        // Paper end - allowing bedrock breaking cuz i'm 20% cooler
          if (this.player.hasClientLoaded()) {
              this.ackBlockChangesUpTo(packet.getSequence());
              ServerLevel serverLevel = this.player.level();

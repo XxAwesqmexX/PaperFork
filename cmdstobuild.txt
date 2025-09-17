@@ -1,0 +1,19 @@
+# BEFORE EVERYTHING
+$env:JAVA_HOME = 'C:\Program Files\Java\jdk-21'
+$env:Path = "$env:JAVA_HOME\bin;$env:Path"
+
+# Before editing files
+gradlew.bat applyPatches
+
+git status
+git add -A
+git commit -m "save changes" || git stash
+
+# After editing files
+./gradlew fixupSourcePatches
+./gradlew rebuildPatches
+
+# Build Jar, will appear in: paper-server/build/libs/
+gradlew.bat createMojmapBundlerJar
+(Optional to exclude tests)
+./gradlew createMojmapBundlerJar -x test

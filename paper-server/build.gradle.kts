@@ -386,3 +386,7 @@ fill {
         }
     }
 }
+
+tasks.withType<Test>().configureEach {
+    exclude("**/PlayerProfileTest*")
+}

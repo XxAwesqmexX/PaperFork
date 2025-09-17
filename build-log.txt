@@ -1,0 +1,409 @@
+Initialized native services in: C:\Users\Tristan\.gradle\native
+Initialized jansi services in: C:\Users\Tristan\.gradle\native
+The client will now receive all logging from the daemon (pid: 42400). The daemon log file: C:\Users\Tristan\.gradle\daemon\8.14.3\daemon-42400.out.log
+Starting 11th build in daemon [uptime: 43 mins 52.776 secs, performance: 100%, GC rate: 0.00/s, heap usage: 29% of 512 MiB, non-heap usage: 48% of 384 MiB]
+Using 16 worker leases.
+Starting process 'command 'git''. Working directory: D:\Projects\OurServerFork Command: git --version
+Successfully started process 'command 'git''
+Starting process 'command 'git''. Working directory: D:\Projects\OurServerFork Command: git -c commit.gpgsign=false -c core.safecrlf=false rev-parse --short=7 HEAD
+Successfully started process 'command 'git''
+Starting process 'command 'git''. Working directory: D:\Projects\OurServerFork Command: git -c commit.gpgsign=false -c core.safecrlf=false show -s --format=%ci 29c8822
+Successfully started process 'command 'git''
+Starting process 'command 'git''. Working directory: D:\Projects\OurServerFork Command: git -c commit.gpgsign=false -c core.safecrlf=false rev-parse --abbrev-ref HEAD
+Successfully started process 'command 'git''
+Reusing configuration cache.
+Watching the file system is configured to be disabled
+File system watching is inactive
+Using local directory build cache for the root build (location = C:\Users\Tristan\.gradle\caches\build-cache-1, remove unused entries = after 7 days).
+Tasks to be executed: [task ':paper-api:compileJava', task ':paper-api:processResources', task ':paper-api:classes', task ':paper-api:generateApiVersioningFile', task ':paper-api:jar', task ':paper-server:compileLog4jPluginsJava', task ':paper-server:downloadMcManifest', task ':paper-server:downloadMcVersionManifest', task ':paper-server:downloadServerJar', task ':paper-server:extractFromBundler', task ':paper-server:processLog4jPluginsResources', task ':paper-server:log4jPluginsClasses', task ':paper-server:compileJava', task ':paper-server:processResources', task ':paper-server:classes', task ':paper-server:jar', task ':paper-server:downloadMappings', task ':paper-server:filterVanillaJar', task ':paper-server:generateMappings', task ':paper-server:cloneSpigotBuildData', task ':paper-server:unpackSpigotBuildData', task ':paper-server:generateSpigotMappings', task ':paper-server:spigotRemapJar', task ':paper-server:cleanupMappings', task ':paper-server:patchMappings', task ':paper-server:generateReobfMappings', task ':paper-server:patchReobfMappings', task ':paper-server:generateRelocatedReobfMappings', task ':paper-server:fixJarForReobf', task ':paper-server:includeMappings', task ':paper-server:relocateConstants', task ':paper-server:reobfJar', task ':paper-server:createReobfBundlerJar', task ':paper-server:createReobfPaperclipJar']
+Tasks that were excluded: []
+Resolve mutations for :paper-api:compileJava (Thread[#1665,Execution worker,5,main]) started.
+Resolve mutations for :paper-api:processResources (Thread[#1666,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :paper-api:generateApiVersioningFile (Thread[#1667,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :paper-server:downloadMcManifest (Thread[#1668,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :paper-server:processLog4jPluginsResources (Thread[#1669,Execution worker Thread 5,5,main]) started.
+:paper-api:processResources (Thread[#1666,Execution worker Thread 2,5,main]) started.
+:paper-api:generateApiVersioningFile (Thread[#1668,Execution worker Thread 4,5,main]) started.
+:paper-server:downloadMcManifest (Thread[#1669,Execution worker Thread 5,5,main]) started.
+:paper-server:processLog4jPluginsResources (Thread[#1667,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :paper-server:processResources (Thread[#1670,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :paper-server:cloneSpigotBuildData (Thread[#1671,Execution worker Thread 7,5,main]) started.
+:paper-server:processResources (Thread[#1670,Execution worker Thread 6,5,main]) started.
+:paper-server:cloneSpigotBuildData (Thread[#1671,Execution worker Thread 7,5,main]) started.
+:paper-api:compileJava (Thread[#1665,Execution worker,5,main]) started.
+
+> Task :paper-server:processLog4jPluginsResources NO-SOURCE
+Skipping task ':paper-server:processLog4jPluginsResources' as it has no source files and no previous output files.
+
+> Task :paper-api:processResources NO-SOURCE
+Skipping task ':paper-api:processResources' as it has no source files and no previous output files.
+
+> Task :paper-api:generateApiVersioningFile UP-TO-DATE
+Caching disabled for task ':paper-api:generateApiVersioningFile' because:
+  Gradle would require more information to cache this task
+Skipping task ':paper-api:generateApiVersioningFile' as it is up-to-date.
+
+> Task :paper-server:cloneSpigotBuildData UP-TO-DATE
+Build cache key for task ':paper-server:cloneSpigotBuildData' is b9b830e8f1120ae1a105c11042cec21a
+Skipping task ':paper-server:cloneSpigotBuildData' as it is up-to-date.
+Resolve mutations for :paper-server:unpackSpigotBuildData (Thread[#1671,Execution worker Thread 7,5,main]) started.
+:paper-server:unpackSpigotBuildData (Thread[#1671,Execution worker Thread 7,5,main]) started.
+
+> Task :paper-server:unpackSpigotBuildData UP-TO-DATE
+Caching disabled for task ':paper-server:unpackSpigotBuildData' because:
+  Caching has not been enabled for the task
+Skipping task ':paper-server:unpackSpigotBuildData' as it is up-to-date.
+
+> Task :paper-server:processResources UP-TO-DATE
+Caching disabled for task ':paper-server:processResources' because:
+  Not worth caching
+Skipping task ':paper-server:processResources' as it is up-to-date.
+
+> Task :paper-api:compileJava UP-TO-DATE
+Build cache key for task ':paper-api:compileJava' is d5e0938fa9ba11f219b74409a9db6037
+Skipping task ':paper-api:compileJava' as it is up-to-date.
+Resolve mutations for :paper-api:classes (Thread[#1665,Execution worker,5,main]) started.
+work action resolve main (project :paper-api) (Thread[#1670,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :paper-server:compileLog4jPluginsJava (Thread[#1670,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :paper-server:compileJava (Thread[#1674,Execution worker Thread 9,5,main]) started.
+:paper-api:classes (Thread[#1665,Execution worker,5,main]) started.
+
+> Task :paper-api:classes UP-TO-DATE
+Skipping task ':paper-api:classes' as it has no actions.
+Resolve mutations for :paper-api:jar (Thread[#1665,Execution worker,5,main]) started.
+:paper-api:jar (Thread[#1665,Execution worker,5,main]) started.
+:paper-server:compileJava (Thread[#1674,Execution worker Thread 9,5,main]) started.
+:paper-server:compileLog4jPluginsJava (Thread[#1670,Execution worker Thread 6,5,main]) started.
+
+> Task :paper-api:jar UP-TO-DATE
+Caching disabled for task ':paper-api:jar' because:
+  Not worth caching
+Skipping task ':paper-api:jar' as it is up-to-date.
+work action resolve paper-api-1.21.8-R0.1-SNAPSHOT.jar (project :paper-api) (Thread[#1665,Execution worker,5,main]) started.
+
+> Task :paper-server:compileLog4jPluginsJava UP-TO-DATE
+Build cache key for task ':paper-server:compileLog4jPluginsJava' is 2806a17660f74f9169618fa930a551b3
+Skipping task ':paper-server:compileLog4jPluginsJava' as it is up-to-date.
+Resolve mutations for :paper-server:log4jPluginsClasses (Thread[#1670,Execution worker Thread 6,5,main]) started.
+:paper-server:log4jPluginsClasses (Thread[#1670,Execution worker Thread 6,5,main]) started.
+
+> Task :paper-server:log4jPluginsClasses UP-TO-DATE
+Skipping task ':paper-server:log4jPluginsClasses' as it has no actions.
+
+> Task :paper-server:downloadMcManifest
+Caching disabled for task ':paper-server:downloadMcManifest' because:
+  Task is untracked because: The Minecraft manifest is a changing resource
+Task ':paper-server:downloadMcManifest' is not up-to-date because:
+  Task is untracked because: The Minecraft manifest is a changing resource
+Resolve mutations for :paper-server:downloadMcVersionManifest (Thread[#1669,Execution worker Thread 5,5,main]) started.
+:paper-server:downloadMcVersionManifest (Thread[#1669,Execution worker Thread 5,5,main]) started.
+
+> Task :paper-server:downloadMcVersionManifest UP-TO-DATE
+Build cache key for task ':paper-server:downloadMcVersionManifest' is a7a0c5e8249d6b34c87dfe2e81dd89a0
+Skipping task ':paper-server:downloadMcVersionManifest' as it is up-to-date.
+Resolve mutations for :paper-server:downloadMappings (Thread[#1669,Execution worker Thread 5,5,main]) started.
+Resolve mutations for :paper-server:downloadServerJar (Thread[#1670,Execution worker Thread 6,5,main]) started.
+:paper-server:downloadMappings (Thread[#1669,Execution worker Thread 5,5,main]) started.
+:paper-server:downloadServerJar (Thread[#1670,Execution worker Thread 6,5,main]) started.
+
+> Task :paper-server:downloadMappings UP-TO-DATE
+Build cache key for task ':paper-server:downloadMappings' is 43f688f27397b68d5a568137ba1eab49
+Skipping task ':paper-server:downloadMappings' as it is up-to-date.
+
+> Task :paper-server:downloadServerJar UP-TO-DATE
+Build cache key for task ':paper-server:downloadServerJar' is 8d1aaa5757c4a6cc745b85852c98041f
+Skipping task ':paper-server:downloadServerJar' as it is up-to-date.
+Resolve mutations for :paper-server:extractFromBundler (Thread[#1670,Execution worker Thread 6,5,main]) started.
+:paper-server:extractFromBundler (Thread[#1670,Execution worker Thread 6,5,main]) started.
+
+> Task :paper-server:extractFromBundler UP-TO-DATE
+Caching disabled for task ':paper-server:extractFromBundler' because:
+  Caching has not been enabled for the task
+Skipping task ':paper-server:extractFromBundler' as it is up-to-date.
+Resolve mutations for :paper-server:filterVanillaJar (Thread[#1670,Execution worker Thread 6,5,main]) started.
+:paper-server:filterVanillaJar (Thread[#1670,Execution worker Thread 6,5,main]) started.
+
+> Task :paper-server:filterVanillaJar UP-TO-DATE
+Build cache key for task ':paper-server:filterVanillaJar' is f7e4d8ed32c8ea628c3c5e78f2663e3d
+Skipping task ':paper-server:filterVanillaJar' as it is up-to-date.
+Resolve mutations for :paper-server:generateMappings (Thread[#1670,Execution worker Thread 6,5,main]) started.
+:paper-server:generateMappings (Thread[#1670,Execution worker Thread 6,5,main]) started.
+
+> Task :paper-server:generateMappings UP-TO-DATE
+Build cache key for task ':paper-server:generateMappings' is 67b16f108d98f47cc0762c806abb8708
+Skipping task ':paper-server:generateMappings' as it is up-to-date.
+Resolve mutations for :paper-server:generateSpigotMappings (Thread[#1667,Execution worker Thread 3,5,main]) started.
+:paper-server:generateSpigotMappings (Thread[#1667,Execution worker Thread 3,5,main]) started.
+
+> Task :paper-server:generateSpigotMappings UP-TO-DATE
+Build cache key for task ':paper-server:generateSpigotMappings' is 2c945d45508e65321bc4010f529e256e
+Skipping task ':paper-server:generateSpigotMappings' as it is up-to-date.
+Resolve mutations for :paper-server:spigotRemapJar (Thread[#1667,Execution worker Thread 3,5,main]) started.
+:paper-server:spigotRemapJar (Thread[#1667,Execution worker Thread 3,5,main]) started.
+
+> Task :paper-server:spigotRemapJar UP-TO-DATE
+Build cache key for task ':paper-server:spigotRemapJar' is 52504f53a71c993790476e529264d260
+Skipping task ':paper-server:spigotRemapJar' as it is up-to-date.
+Resolve mutations for :paper-server:cleanupMappings (Thread[#1667,Execution worker Thread 3,5,main]) started.
+:paper-server:cleanupMappings (Thread[#1667,Execution worker Thread 3,5,main]) started.
+
+> Task :paper-server:cleanupMappings UP-TO-DATE
+Build cache key for task ':paper-server:cleanupMappings' is e3aee67c3ef87c2d70d0c210701d6aea
+Skipping task ':paper-server:cleanupMappings' as it is up-to-date.
+Resolve mutations for :paper-server:patchMappings (Thread[#1667,Execution worker Thread 3,5,main]) started.
+:paper-server:patchMappings (Thread[#1667,Execution worker Thread 3,5,main]) started.
+
+> Task :paper-server:patchMappings UP-TO-DATE
+Caching disabled for task ':paper-server:patchMappings' because:
+  Caching has not been enabled for the task
+Skipping task ':paper-server:patchMappings' as it is up-to-date.
+
+> Task :paper-server:compileJava UP-TO-DATE
+Build cache key for task ':paper-server:compileJava' is 6d4e8129819c6847de9a06b3f3960a75
+Skipping task ':paper-server:compileJava' as it is up-to-date.
+Resolve mutations for :paper-server:classes (Thread[#1674,Execution worker Thread 9,5,main]) started.
+:paper-server:classes (Thread[#1674,Execution worker Thread 9,5,main]) started.
+
+> Task :paper-server:classes UP-TO-DATE
+Skipping task ':paper-server:classes' as it has no actions.
+Resolve mutations for :paper-server:jar (Thread[#1674,Execution worker Thread 9,5,main]) started.
+:paper-server:jar (Thread[#1674,Execution worker Thread 9,5,main]) started.
+
+> Task :paper-server:jar UP-TO-DATE
+Caching disabled for task ':paper-server:jar' because:
+  Not worth caching
+Skipping task ':paper-server:jar' as it is up-to-date.
+Resolve mutations for :paper-server:generateReobfMappings (Thread[#1674,Execution worker Thread 9,5,main]) started.
+Resolve mutations for :paper-server:fixJarForReobf (Thread[#1667,Execution worker Thread 3,5,main]) started.
+:paper-server:fixJarForReobf (Thread[#1667,Execution worker Thread 3,5,main]) started.
+:paper-server:generateReobfMappings (Thread[#1674,Execution worker Thread 9,5,main]) started.
+
+> Task :paper-server:fixJarForReobf UP-TO-DATE
+Caching disabled for task ':paper-server:fixJarForReobf' because:
+  Caching has not been enabled for the task
+Skipping task ':paper-server:fixJarForReobf' as it is up-to-date.
+
+> Task :paper-server:generateReobfMappings UP-TO-DATE
+Caching disabled for task ':paper-server:generateReobfMappings' because:
+  Caching has not been enabled for the task
+Skipping task ':paper-server:generateReobfMappings' as it is up-to-date.
+Resolve mutations for :paper-server:patchReobfMappings (Thread[#1674,Execution worker Thread 9,5,main]) started.
+:paper-server:patchReobfMappings (Thread[#1674,Execution worker Thread 9,5,main]) started.
+
+> Task :paper-server:patchReobfMappings UP-TO-DATE
+Caching disabled for task ':paper-server:patchReobfMappings' because:
+  Caching has not been enabled for the task
+Skipping task ':paper-server:patchReobfMappings' as it is up-to-date.
+Resolve mutations for :paper-server:generateRelocatedReobfMappings (Thread[#1674,Execution worker Thread 9,5,main]) started.
+:paper-server:generateRelocatedReobfMappings (Thread[#1674,Execution worker Thread 9,5,main]) started.
+
+> Task :paper-server:generateRelocatedReobfMappings UP-TO-DATE
+Caching disabled for task ':paper-server:generateRelocatedReobfMappings' because:
+  Caching has not been enabled for the task
+Skipping task ':paper-server:generateRelocatedReobfMappings' as it is up-to-date.
+Resolve mutations for :paper-server:includeMappings (Thread[#1674,Execution worker Thread 9,5,main]) started.
+:paper-server:includeMappings (Thread[#1674,Execution worker Thread 9,5,main]) started.
+
+> Task :paper-server:includeMappings UP-TO-DATE
+Caching disabled for task ':paper-server:includeMappings' because:
+  Caching has not been enabled for the task
+Skipping task ':paper-server:includeMappings' as it is up-to-date.
+Resolve mutations for :paper-server:relocateConstants (Thread[#1674,Execution worker Thread 9,5,main]) started.
+:paper-server:relocateConstants (Thread[#1674,Execution worker Thread 9,5,main]) started.
+
+> Task :paper-server:relocateConstants UP-TO-DATE
+Caching disabled for task ':paper-server:relocateConstants' because:
+  Caching has not been enabled for the task
+Skipping task ':paper-server:relocateConstants' as it is up-to-date.
+Resolve mutations for :paper-server:reobfJar (Thread[#1674,Execution worker Thread 9,5,main]) started.
+:paper-server:reobfJar (Thread[#1674,Execution worker Thread 9,5,main]) started.
+
+> Task :paper-server:reobfJar FAILED
+Caching disabled for task ':paper-server:reobfJar' because:
+  Caching has not been enabled for the task
+Task ':paper-server:reobfJar' is not up-to-date because:
+  Task has failed previously.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':paper-server:reobfJar'.
+> io.papermc.paperweight.PaperweightException: Reobfuscated server jars are no longer supported and only exist for debugging purposes.
+  If you are attempting to build a paperclip or bundler jar, use the 'mojmap' variant instead of 'reobf'.
+  Enable paperweight debug mode to bypass this error.
+
+
+* Try:
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':paper-server:reobfJar'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+Caused by: org.gradle.internal.UncheckedException: io.papermc.paperweight.PaperweightException: Reobfuscated server jars are no longer supported and only exist for debugging purposes.
+If you are attempting to build a paperclip or bundler jar, use the 'mojmap' variant instead of 'reobf'.
+Enable paperweight debug mode to bypass this error.
+
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:69)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:42)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:275)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:175)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+Caused by: io.papermc.paperweight.PaperweightException: Reobfuscated server jars are no longer supported and only exist for debugging purposes.
+If you are attempting to build a paperclip or bundler jar, use the 'mojmap' variant instead of 'reobf'.
+Enable paperweight debug mode to bypass this error.
+
+	at io.papermc.paperweight.core.util.Project_utilKt$reobfRequiresDebug$1.execute(project-util.kt:105)
+	at io.papermc.paperweight.core.util.Project_utilKt$reobfRequiresDebug$1.execute(project-util.kt:103)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:832)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:805)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:244)
+	... 113 more
+
+
+BUILD FAILED in 3s
+27 actionable tasks: 2 executed, 25 up-to-date
+Configuration cache entry reused.
